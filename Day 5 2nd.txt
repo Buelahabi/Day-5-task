@@ -1,0 +1,191 @@
+2)  https://medium.com/@reach2arunprakash/guvi-zen-class-javascript-warm-up-programming-problems-15973c74b87f
+
+   
+i)  Write a function called “addFive”.
+Given a number, “addFive” returns 5 added to that number.
+
+Input:
+addFive(5);
+addFive(0);
+addFive(-5);
+Output:
+10
+5
+0
+
+
+ans::
+function addfive(a){
+return a+5;
+}
+console.log(addfive(5));
+console.log(addfive(0));
+console.log(addfive(-5));
+
+
+ii) Fill in your code that takes an number minutes and converts it to seconds.
+Examples
+toSeconds(5) ➞ 300
+toSeconds(3) ➞ 180
+toSeconds(2) ➞ 120
+
+Ans::
+
+function toseconds(min){
+return min*60;
+}
+console.log(toseconds(5));
+console.log(toseconds(3));
+console.log(toseconds(2));
+
+iii)  Create a function that takes an array and returns the first element.
+Examples
+getFirstElement([1, 2, 3]) ➞ 1
+getFirstElement([80, 5, 100]) ➞ 80
+getFirstElement([-500, 0, 50]) ➞ -500
+
+Ans::
+ function getfirstelement(ele){
+ return ele[0];
+}
+console.log(getfirstelement([1,2,3]))
+console.log(getfirstelement([80,5,100]))
+console.log(getfirstelement([-500,0,50]))
+
+
+iv)  Find the Perimeter of a Rectangle
+Create a function that takes height and width and finds the perimeter of a rectangle.
+Examples
+findPerimeter(6, 7) ➞ 26
+findPerimeter(20, 10) ➞ 60
+findPerimeter(2, 9) ➞ 22
+
+
+Ans::
+
+function findperimeter(a,b){
+return 2*(a+b)
+}
+console.log(findperimeter(6,7));
+console.log(findperimeter(20,10));
+console.log(findperimeter(2,9));
+
+
+v)  Less Than 100?
+Given two numbers, return true if the sum of both numbers is less than 100. Otherwise return false.
+Examples
+lessThan100(22, 15) ➞ true
+// 22 + 15 = 37
+lessThan100(83, 34) ➞ false
+// 83 + 34 = 117
+
+Ans::
+
+let lessthan100=function(a,b){
+let ans;
+let sum=a+b;
+if(sum=a+b;
+if(sum<100){
+ans="true"
+}
+else{
+ans="false"
+}
+return ans;
+}
+console.log(lessthan100(22,15));
+console.log(lessthan100(83,34));
+
+
+vi)  Old macdonald had a farm:
+MacDonald is asking you to tell him how many legs can be counted among all his animals. The farmer breeds three species:
+turkey = 2 legs
+horse = 4 legs
+pigs = 4 legs
+The farmer has counted his animals and he gives you a subtotal for each species. You have to implement a function that returns the total number of legs of all the animals.
+Examples
+CountAnimals(2, 3, 5) ➞ 36
+CountAnimals(1, 2, 3) ➞ 22
+CountAnimals(5, 2, 8) ➞ 50
+
+
+Ans:::
+
+let countAnimals=function(tur,horse,pigs){
+return tur*1+horse*4+pigs*4
+}
+console.log(countAnimals(2,3,5))
+console.log(countAnimals(1,2,3))
+
+console.log(countAnimals(5,2,8))
+
+
+
+vii)  Find the maximum number in an array of numbers
+
+var findmax=(arr)=>Math.max(...arr);
+console.log(findmax([1,2,7,4,5,]));
+
+
+viii)  Reverse a string
+  
+    function reversestring(str){
+return str.split("").reverse().join("");
+}
+
+console.log(reversestring("javascript"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
